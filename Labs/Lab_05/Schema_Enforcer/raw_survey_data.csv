@@ -1,0 +1,6 @@
+student_id,major,GPA,is_cs_major,credits_taken
+100,Statistics,4.0,No,17
+101,CS,3,Yes,10.5
+102,Economics,3.8,No,15
+103,Computer Engineering,3.4,Yes,19
+104,Math,3.5,No,15
