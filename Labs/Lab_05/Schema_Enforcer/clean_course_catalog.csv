@@ -1,7 +1,7 @@
 name,role,course_id,title,level,section
 Austin Rivera,Primary,DS2002,Data Science Systems,200,001
 Heywood Williams-Tracy,TA,DS2002,Data Science Systems,200,001
-Rich Ross,Primary,STAT3280,Data Visualization and Management,300,
-Chris Paolucci,Primary,CHE4452,Data Science for Chemical Engineering,400,
-Chunlin Li,Primary,STAT4130,Applied Multivariate Statistics,400,
-Scott Deveaux,Primary,MUSI2120,History of Jazz,200,
+Rich Ross,Primary,STAT3280,Data Visualization and Management,300,001
+Chris Paolucci,Primary,CHE4452,Data Science for Chemical Engineering,400,001
+Chunlin Li,Primary,STAT4130,Applied Multivariate Statistics,400,001
+Scott Deveaux,Primary,MUSI2120,History of Jazz,200,001
