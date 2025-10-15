@@ -1,0 +1,49 @@
+===== Pokémon Card Portfolio Summary =====
+Total Portfolio Market Value: $326.55
+
+Most Valuable Card:
+  Name: Charizard
+  ID: base0-4
+  Market Value: $250.75
+==========================================
+
+Test complete.
+
+$ make Add_Set
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1, base4): base1
+Fetching data for Pokémon card set: base1 ...
+Data for set 'base1' saved to card_set_lookup/base1.json
+
+$ make Add_Set
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1, base4): base4
+Fetching data for Pokémon card set: base4 ...
+Data for set 'base4' saved to card_set_lookup/base4.json
+
+--- Refreshing All Card Sets ---
+Refreshing all card sets in card_set_lookup/...
+Updating set: base1 ...
+Updated data for 'base1' written to card_set_lookup/base1.json
+Updating set: base4 ...
+Updated data for 'base4' written to card_set_lookup/base4.json
+✅ All card sets have been refreshed!
+make[1]: Leaving directory 'C:/Users/coope/Documents/Github/DS_2002/DS-2002-F25/Labs/Lab_04/pokemon_lab'
+--- Running Full Production Pipeline ---
+=== Starting Production Pipeline ===
+-> Running ETL step: update_portfolio...
+Starting update_portfolio() with inventory_dir=./card_inventory/, lookup_dir=./card_set_lookup/
+Portfolio CSV written to card_portfolio.csv
+ETL step completed: card_portfolio.csv generated.
+-> Running Reporting step: generate_summary...
+
+===== Pokémon Card Portfolio Summary =====
+Total Portfolio Market Value: $5,674.73
+
+Most Valuable Card:
+  Name: Charizard
+  ID: base1-4
+  Market Value: $457.99
+==========================================
+
+=== Production Pipeline Completed Successfully ===
